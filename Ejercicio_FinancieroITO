@@ -11,7 +11,7 @@ public class Financiero
        for(int index=0;index<sueldo.length;index++){
            saldoPromedio+=sueldo[index];
            }
-        saldoPromedio/=sueldo.length;
+        saldoPromedio/=12;
         System.out.println(saldoPromedio);
        
     }
